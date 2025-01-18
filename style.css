@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.status-bar {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+
+.nav-tab {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.nav-tab2 {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    cursor: pointer;
+}
+
+.left, .right {
+    justify-content: center;
+}
+
+.center {
+    margin-right: auto;
+}
+
+.right-wrapper {
+    position: absolute;
+    right: 60px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/*CONTAINER VARIABLES###################################*/
+
+.container {
+    padding: 20px;
+}
+
+.container2 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    padding: 10px;
+    display: flex;
+}
+
+.results-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-container {
+    border: 5px solid #000;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+}
+
+/*BOX VARIABLES#########################################*/
+
+.box {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.box2 {
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.box4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #ccc;
+}
+
+/*IMAGE VARIABLES#######################################*/
+
+.image {
+    background: #f0f0f0;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #999;
+}
+
+.image2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #f0f0f0;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #999;
+}
+
+.image3 {
+    background: #f0f0f0;
+    height: 200px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #999;
+}
+
+/*GALLERY IMAGE VARIABLES################################*/
+.gallery {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+}
+
+.photo-gallery {
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+
+.map-photo {
+    width: 100%;
+    height: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    align-items: center;
+    justify-content: center;
+}
+
+/*TITLE VARIABLES#######################################*/
+.title {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.title2 {
+    margin: 16px 0;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*TEXT VARIABLES#######################################*/
+.text {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.text2 {
+
+    margin-bottom: 10px;
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+}
+
+.text3 {
+    color: #666;
+    margin-bottom: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-content {
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.name, .location, .price {
+    margin: 0;
+    line-height: 1.4;
+}
+
+/*INTERACTIVE VARIABLES###############################*/
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.continue-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.total-cost {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*SEARCH RESULTS PAGE#################################*/
+.card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.image-box {
+    width: 80px;
+    height: 80px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-right: 15px;
+}
+
+.details {
+    flex: 1;
+}
+
+.name, .location, .price {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.more {
+    color: #007AFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+p {
+    margin-bottom: 15px;
+    margin-right: 20px;
+    line-height: 1.4;
+}
+
+/*SLIDESHOW CODE FOR BOOKING PAGE#######################*/
+.listing {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.nav-left, .nav-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.nav-left {
+    left: 0;
+}
+
+.nav-right {
+    right: 0;
+}
+
+.description {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*####################################################*/

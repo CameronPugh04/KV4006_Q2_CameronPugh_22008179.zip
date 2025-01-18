@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Home</title>
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+<div class="status-bar">
+    <span>CARRIER</span>
+    <span>12:00 PM</span>
+    <span>100%</span>
+</div>
+
+<div class="nav-tabs">
+    <a href="index.html">
+        <button class="nav-tab">Home</button>
+    </a>
+    <button class="nav-tab">Deals</button>
+    <button class="nav-tab">Manage Booking</button>
+    <a href="about-us.html">
+        <button class="nav-tab">About us</button>
+    </a>
+    <button class="btn logo"><i class="material-icons">close</i></button>
+</div>
+
+<div class="container">
+    <h2>Confirm Booking</h2>
+    <hr>
+    <div class="input-group">
+        <label>Name
+            <input placeholder="Enter your name" type="text">
+        </label>
+    </div>
+    <div class="input-group">
+        <label>Address
+            <input placeholder="Enter your address" type="text">
+        </label>
+    </div>
+    <hr>
+    <div class="input-group">
+        <label>Check In:
+            <input type="date">
+        </label>
+    </div>
+    <div class="input-group">
+        <label>Check Out:
+            <input type="date">
+        </label>
+    </div>
+    <div class="input-group">
+        <label>No. of Nights:
+            <input min="1" type="number">
+        </label>
+    </div>
+    <hr>
+    <div class="input-group">
+        <label>No. of People:
+            <input min="1" type="number">
+        </label>
+    </div>
+    <hr>
+    <div class="input-group">
+        <label for="option">B&B or All Inclusive</label>
+        <select id="option">
+            <option value="B&B">B&B</option>
+            <option value="All Inclusive">All Inclusive</option>
+        </select>
+    </div>
+    <hr>
+    <div class="total-cost">
+        <strong>Total cost:</strong> £X.XX
+    </div>
+    <a href="Enter-Details.html">
+        <button class="continue-button">Continue</button>
+    </a>
+</div>
